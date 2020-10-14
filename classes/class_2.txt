@@ -1,0 +1,13 @@
+Class: OrderTicket
+
+Attributes:
+is_dining_in (boolean)
+food_ordered (hash - menu item and quantity)
+total_price (float)
+modifications (string)
+
+Methods:
+change_to_takeout (changes is_dining_in to false)
+add_item (adds and item and quantity to food_ordered and changes total_price)
+apply_discount (subtracts 10% from total_price)
+modify_order (updates the modifications attribute with new string)
