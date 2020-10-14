@@ -1,0 +1,13 @@
+Object: Ticket8Monday
+
+Attributes:
+is_dining_in = true
+food_ordered = {"hamburger": 1, "cheeseburger": 1 "fries": 2}
+total_price = 19.99
+modifications = "no tomato on hamburger"
+
+Methods:
+change_to_takeout: is_dining_in = false
+add_item: food_ordered = {"hamburger": 1, "cheeseburger": 1 "fries": 2, "softdrink": 2} total_price = 23.99
+apply_discount: total_price = 21.59
+modify_order: modifications = "no tomato on hamburger and no mayo on cheeseburger"
