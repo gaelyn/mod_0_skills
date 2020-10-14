@@ -1,13 +1,13 @@
 Class: Server
 
 Attributes:
-name (string)
+name_on_nametag (string)
 is_clocked_in (boolean)
 table_numbers_serving (array)
 hours_worked (float)
 
 Methods:
-change_name (modifies the name attribute)
+change_name (modifies the name_on_nametag attribute)
 clock_out (changes is_clocked_in from true to false)
 assigned_new_table (adds new table number to table_numbers_serving)
 complete_shift (adds number of hours on current shift to hours_worked)
