@@ -1,0 +1,13 @@
+Object: KatherineSmith
+
+Attributes:
+name_on_nametag = "Katie"
+is_clocked_in = true
+table_numbers_serving = [4,6,8]
+hours_worked (float) = 22.5
+
+Methods:
+change_name: name_on_nametag = "Kat"
+clock_out: is_clocked_in = false
+assigned_new_table: table_numbers_serving = [4,6,7,8]
+complete_shift: hours_worked = 30.0
